@@ -31,8 +31,8 @@ typedef enum ARM_AM_ShiftOpc {
 } ARM_AM_ShiftOpc;
 
 typedef enum ARM_AM_AddrOpc {
-	ARM_AM_add = 0,
-	ARM_AM_sub
+	ARM_AM_sub = 0,
+	ARM_AM_add
 } ARM_AM_AddrOpc;
 
 static inline char *ARM_AM_getAddrOpcStr(ARM_AM_AddrOpc Op)
